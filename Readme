@@ -1,0 +1,16 @@
+This is a basic demonstration of an application for scouting and tracking fencers at tournaments.
+To run it, make sure there is an appropriate JVM installed on your machine, then double click
+the '.jar' file.
+When run, it produces 3 reports:
+The first report pulls data from the 'fencer' table to display athletes' names, club, handedness,
+and rating.  The athletes displayed are all from the same event, which the app determines by
+querying the 'tournament_match' table to see which athletes participated.
+The second report pulls data from 'tournament_match' to create a list of matches from the event
+used in report 1.  It combines data from the 'fencer' and 'referee' tables to include athlete and
+referee names, as well as round number and final scores from 'tournament_match'.
+The third report requires input from the user.
+First, input either the first or last name of the athlete you want to look up and press 'enter'.
+The first few letters are sufficient.
+The app will then display a list of possible matches.  Enter the number to the left of the
+athlete's name to display a list of all notes made on that athlete.
+The app then exits.

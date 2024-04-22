@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //database connection information
         final String URL = "jdbc:mysql://localhost:3306/ics311";
         final String USERNAME = "java";
         final String PASSWORD = "javapass";
